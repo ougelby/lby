@@ -7,9 +7,8 @@ import java.util.Scanner;
 public class Test3 { 
     public static void main(String[] args) {
         Scanner i = new Scanner(System.in);
-        String a = "begin";       //声明字符串
-	String s = new String("shutdown");  //系统阶段，输入字符串
-	System.out.println("请输入相关字符串");
+        String a = "begin";       //声明字符串  
+	System.out.println("请输入相关字符串");//系统阶段，输入字符串
 	String x = i.next();
 	if(a.equals(x))  //判断输入的字符串，进入游戏阶段
 		{
